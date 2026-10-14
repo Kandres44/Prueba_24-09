@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Route, Routes, Navigate,Link } from 'react-rou
 import Inicio from "./componentes/inicio";
 import Favoritos from "./componentes/favoritos";
 import Info from "./componentes/info";
-import Coleccion from "./components/coleccion"
-import Usuario from "./components/usuario"
-import Pokemon from "./components/pokemon"
+import Coleccion from "./componentes/coleccion"
+import Usuario from "./componentes/usuario"
+import Pokemon from "./componentes/pokemon"
 import './App.css'
 
 function App() {
