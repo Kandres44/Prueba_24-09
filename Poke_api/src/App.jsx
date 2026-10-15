@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Route, Routes, Navigate,Link } from 'react-router-dom';
 
-import inicio from "./components/inicio";
-import favoritos from "./components/favoritos";
-import info from "./components/info";
-import coleccion from "./components/coleccion"
-import usuario from "./components/usuario"
-import pokemon from "./components/pokemon"
+import inicio from "./componentes/inicio";
+import favoritos from "./componentes/favoritos";
+import info from "./componentes/info";
+import coleccion from "./componentes/coleccion"
+import usuario from "./componentes/usuario"
+import pokemon from "./componentes/pokemon"
 import './App.css'
 
 function App() {
