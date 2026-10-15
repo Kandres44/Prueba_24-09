@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Route, Routes, Navigate,Link } from 'react-router-dom';
 
-import Inicio from "./components/inicio";
-import Favoritos from "./components/favoritos";
-import Info from "./components/info";
-import Coleccion from "./components/coleccion"
-import Usuario from "./components/usuario"
-import Pokemon from "./components/pokemon"
+import inicio from "./components/inicio";
+import favoritos from "./components/favoritos";
+import info from "./components/info";
+import coleccion from "./components/coleccion"
+import usuario from "./components/usuario"
+import pokemon from "./components/pokemon"
 import './App.css'
 
 function App() {
@@ -14,19 +14,19 @@ function App() {
     <>
       <Router>
         <nav className='c-menu'>
-          <Link to="/">Inicio</Link>
-          <Link to="/coleccion">Coleccion</Link>
-          <Link to="/favoritos">Favoritos</Link>
-          <Link to="/info">Info</Link>
-          <Link to="/usuario">Usuario</Link>
+          <Link to="/">inicio</Link>
+          <Link to="/coleccion">coleccion</Link>
+          <Link to="/favoritos">favoritos</Link>
+          <Link to="/info">info</Link>
+          <Link to="/usuario">usuario</Link>
         </nav>
         <Routes>
-          <Route path="/" element={<Inicio />} />
-          <Route path="/favoritos" element={<Favoritos />} />
-          <Route path="/coleccion" element={<Coleccion />} />
-          <Route path="/info" element={<Info />} />
-          <Route path="/usuario" element={<Usuario />} />
-          <Route path="/pokemon/:name" element={<Pokemon />} />
+          <Route path="/" element={<inicio />} />
+          <Route path="/favoritos" element={<favoritos />} />
+          <Route path="/coleccion" element={<coleccion />} />
+          <Route path="/info" element={<info />} />
+          <Route path="/usuario" element={<usuario />} />
+          <Route path="/pokemon/:name" element={<pokemon />} />
         </Routes>
       </Router>
     </>
